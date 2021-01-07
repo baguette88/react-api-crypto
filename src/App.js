@@ -42,8 +42,12 @@ function App() {
           />
         </form>
       </div>
+
+      
       {filteredCoins.map(coin => {
         return (
+          <div>
+         
           <Coin
             key={coin.id}
             name={coin.name}
@@ -54,6 +58,7 @@ function App() {
             image={coin.image}
             priceChange={coin.price_change_percentage_24h}
           />
+          </div>
         );
       })}
     </div>
