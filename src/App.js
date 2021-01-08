@@ -44,11 +44,8 @@ function App() {
         </form>
       </div>
 
-      
-      {filteredCoins.map(coin => {
-        return (
-          <div>
-          <div className='coin-row'>
+
+      <div className='coin-row'>
         <div className='coin'>
           <h1>img </h1>
           <h1>Name</h1>
@@ -70,6 +67,12 @@ function App() {
           </p>
         </div>
       </div>
+
+      
+      {filteredCoins.map(coin => {
+        return (
+          <div>
+         
           <Coin
             key={coin.id}
             name={coin.name}
