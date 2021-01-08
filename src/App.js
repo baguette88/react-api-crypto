@@ -56,7 +56,7 @@ function App() {
           <p className='coin-ath'>ATH</p>
           <p className='coin-volume'>Volume</p>
 
-            <p className='coin-percent green'>1 Day%</p>
+            <p className='coin-percent green'>24 Hr%</p>
          
   
           <p className='coin-marketcap'>

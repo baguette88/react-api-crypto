@@ -43,9 +43,9 @@
     #073e4e 100%
   );
 
-  color: #e2e2e2;
+  color: #000000;
 }
 
 .coin-input::placeholder {
-  color: #e2e2e2;
+  color: #000000;
 }
