@@ -56,14 +56,11 @@ function App() {
           <p className='coin-ath'>ATH</p>
           <p className='coin-volume'>Vol</p>
 
-          
-            <p className='coin-percent red'>Price Change</p>
+            <p className='coin-percent green'>1 Day%</p>
          
-            {/* <p className='coin-percent green'>+{priceChange.toFixed(2)}%</p> */}
-          
-
+  
           <p className='coin-marketcap'>
-            Mkt Cap
+            Market Cap
           </p>
         </div>
       </div>
