@@ -54,7 +54,7 @@ function App() {
         <div className='coin-data'>
           <p className='coin-price'>Price</p>
           <p className='coin-ath'>ATH</p>
-          <p className='coin-volume'>Vol</p>
+          <p className='coin-volume'>Volume</p>
 
             <p className='coin-percent green'>1 Day%</p>
          
