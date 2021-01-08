@@ -40,12 +40,12 @@
     -225deg,
     #ffffff 0%,
     #18ebf2 48%,
-    #3117c5 100%
+    #073e4e 100%
   );
 
-  color: #000000;
+  color: #e2e2e2;
 }
 
 .coin-input::placeholder {
-  color: #000000;
+  color: #e2e2e2;
 }

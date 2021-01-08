@@ -8,7 +8,9 @@ const Coin = ({
   marketcap,
   volume,
   image,
-  priceChange
+  priceChange,
+  ath
+  
 }) => {
   return (
     <div className='coin-container'>
@@ -20,6 +22,7 @@ const Coin = ({
         </div>
         <div className='coin-data'>
           <p className='coin-price'>${price}</p>
+          <p className='coin-ath'>${ath}</p>
           <p className='coin-volume'>${volume.toLocaleString()}</p>
 
           {priceChange < 0 ? (

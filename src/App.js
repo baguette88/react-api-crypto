@@ -31,6 +31,7 @@ function App() {
 
   return (
     <div className='coin-app'>
+      
       <div className='coin-search'>
         <h1 className='coin-text'>Search a currency</h1>
         <form>
@@ -57,6 +58,7 @@ function App() {
             volume={coin.market_cap}
             image={coin.image}
             priceChange={coin.price_change_percentage_24h}
+            ath={coin.ath}
           />
           </div>
         );
