@@ -47,7 +47,7 @@ function App() {
 
       <div className='coin-row'>
         <div className='coin'>
-          <h1>img </h1>
+       
           <h1>Name</h1>
           <p className='coin-symbol'>Symbol</p>
         </div>
